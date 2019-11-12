@@ -1,0 +1,33 @@
+{
+    "name": "1655170198/echarts",
+    "description": " ",
+    "type": "tools",
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "php": "^7.0.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "1655170198",
+            "email": "1655170198@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ShowECharts\\Extension\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShowECharts\\Extension\\LaravelServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
+
